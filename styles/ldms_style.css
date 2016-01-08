@@ -1,0 +1,104 @@
+/* GENERAL */
+html {
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+header {
+  height: 120px;
+  width: 100%;
+}
+h1 {
+  margin-top: 0;
+}
+footer {
+  bottom: 0;
+  font-size: 12px;
+  padding: 5px 0 5px 0;
+  position: fixed;
+  width: 100%;
+}
+label ,
+input[type='radio']{
+  cursor: pointer;
+}
+
+.menu-selection-list a,
+.menu-selection-list a:link,
+.menu-selection-list a:visited,
+.menu-selection-list a:hover,
+.menu-selection-list a:active {
+  color: #333;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* GENERAL CLASSES */
+.is-floating-left {
+  float: left;
+}
+.is-floating-right {
+  float: right;
+}
+.is-hidden {
+  display: none;
+  visibility: hidden;
+}
+.is-bold {
+  font-weight: bold;
+}
+.is-clickable {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.is-clickable:hover {
+  text-decoration: none;
+}
+
+/* SPECIFIC SELECTIONS */
+ul.menu-selection-list {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 80px;
+}
+ul.menu-selection-list li.menu-selection {
+  display: block;
+  float: left;
+  border: 1px solid #DCDCDC;
+  margin-right: 2px;
+  cursor: pointer;
+}
+ul.menu-selection-list li.menu-selection:hover,
+ul.menu-selection-list li.menu-selection.active {
+  background: #DCDCDC;
+}
+div.type-box {
+  clear: both;
+}
+
+.selection-fields {
+  max-width: 40%;
+}
+
+#pdf-preview {
+  margin-left:100px;
+}
+
+#search-result-box,
+#party-result-box,
+#report-result-box {
+  margin-left:100px;
+  margin-top:-55px;
+  max-width: 60%;
+}
+
+#search-result-table th {
+  min-width: 80px;
+  text-align: left;
+}
+
+/* SUNNYWALKER */
+.filter-table .quick { margin-left: 0.5em; font-size: 0.8em; text-decoration: none; }
+.fitler-table .quick:hover { text-decoration: underline; }
